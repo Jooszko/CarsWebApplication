@@ -1,0 +1,40 @@
+.formBox{
+    background-color: #374151;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    text-align: center;
+    margin-left: 50%;
+    transform:translateX(-50%);
+    margin-top: 50px;
+    /* padding-bottom: 50px; */
+    color: white;
+}
+
+.formBox .formItem{
+    margin-bottom: 10px;
+}
+
+.formBox .formItem label{
+    margin-right: 10px;
+}
+
+.saveButton{
+    width: fit-content;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1db100;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    border: none;
+}
+
+.formBox .backButton{
+    display: unset;
+    margin-left: 20px;
+    width: 70px;
+    height: 48px;
+}

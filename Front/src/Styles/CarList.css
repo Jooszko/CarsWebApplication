@@ -1,0 +1,82 @@
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.container{
+    justify-content: center;
+    width: 100%;
+}
+
+.addCarButton{
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #2fa700;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 50%;
+    transform:translateX(-50%);
+    margin-top: 40px;
+}
+
+ul{
+    list-style: none;
+    margin: 20px;
+    padding: 0px;
+    color: white;
+}
+
+.carBoxEl{
+    background-color: #374151;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    margin-left: 50%;
+    transform:translateX(-50%);
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carBoxEl p:last-of-type{
+    padding-bottom: 20px;
+}
+
+.detailsButton{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffc012;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+
+.editCarButton{
+    padding: 10px 20px;
+    background-color: #0a06ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.deleteCarButton{
+    padding: 10px 20px;
+    background-color: #ff0606;
+    color: white;
+    border: none;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 10px;  
+}
+
+.deleteCarButton:hover{
+    cursor: pointer;
+}
