@@ -1,0 +1,44 @@
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.deps.json
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.dll
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.pdb
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfoInputs.cache
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfo.cs
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.csproj.CoreCompileInputs.cache
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.dll
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\refint\Cars.Domain.dll
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.pdb
+C:\Users\arkad\source\repos\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\ref\Cars.Domain.dll
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.deps.json
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.dll
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.pdb
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfoInputs.cache
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfo.cs
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.csproj.CoreCompileInputs.cache
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.dll
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\refint\Cars.Domain.dll
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.pdb
+E:\Projekty\CarsWebApplication\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\ref\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.deps.json
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.pdb
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfoInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfo.cs
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.csproj.CoreCompileInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\refint\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.pdb
+D:\JoszkoStudia\5sem\Aplikacje sieciowe i webowe\lab2\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\ref\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.deps.json
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.pdb
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfoInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfo.cs
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.csproj.CoreCompileInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\refint\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.pdb
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\ref\Cars.Domain.dll
