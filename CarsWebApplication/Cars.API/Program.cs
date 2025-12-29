@@ -8,6 +8,11 @@ using System;
 using System.Threading.Tasks;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Cars.API;
+using Microsoft.AspNetCore.Identity;
+using Cars.Domain;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,7 +31,12 @@ builder.Services.AddDbContext<DataContext>(opt =>
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(opt =>
+{
+    var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+    opt.Filters.Add(new AuthorizeFilter(policy));
+});
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -35,6 +45,8 @@ builder.Services.AddValidatorsFromAssemblyContaining<Create>();
 
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(List.Handler).Assembly));
+
+builder.Services.AddIdentityServices(builder.Configuration);
 
 var app = builder.Build();
 
@@ -49,6 +61,8 @@ app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllers();
@@ -57,18 +71,33 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
 
+    //try
+    //{
+    //    var context = services.GetRequiredService<DataContext>();
+
+    //    context.Database.Migrate();
+
+    //    await Seed.SeedData(context);
+    //}
+    //catch (Exception ex)
+    //{
+    //    var logger = services.GetRequiredService<ILogger<Program>>();
+    //    logger.LogError(ex, "An error occured during migration and/or data seeding");
+    //}
+
+
     try
     {
         var context = services.GetRequiredService<DataContext>();
+        var userManager = services.GetRequiredService<UserManager<AppUser>>();
 
-        context.Database.Migrate();
-
-        await Seed.SeedData(context);
+        await context.Database.MigrateAsync();
+        await Seed.SeedData(context, userManager);
     }
     catch (Exception ex)
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "An error occured during migration and/or data seeding");
+        logger.LogError(ex, "An error occured during migration");
     }
 }
 

@@ -1,4 +1,4 @@
-/* Header.css */
+
 .header-container {
     text-align: center;
     background-color: #1F2937;
@@ -11,4 +11,25 @@
 
 .allCarsButton{
     background-color: #8B5CF6;
+}
+
+.logoutButton{
+    position: absolute;
+    right: 20px;
+    top: -7px;
+}
+
+.logoutButton button {
+    background: transparent;
+    color: #38bdf8;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 22px;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+.logoutButton button:hover {
+    background: rgba(56, 189, 248, 0.1);
+    border-color: #38bdf8;
 }

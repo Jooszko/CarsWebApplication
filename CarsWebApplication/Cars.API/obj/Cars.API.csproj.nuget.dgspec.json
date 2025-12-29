@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.API\\Cars.API.csproj": {}
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.API\\Cars.API.csproj": {}
   },
   "projects": {
-    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.API\\Cars.API.csproj": {
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.API\\Cars.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.API\\Cars.API.csproj",
+        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.API\\Cars.API.csproj",
         "projectName": "Cars.API",
-        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.API\\Cars.API.csproj",
+        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.API\\Cars.API.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.API\\obj\\",
+        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj": {
-                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj"
+              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj": {
+                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj"
               },
-              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj": {
-                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj"
+              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj": {
+                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj"
               }
             }
           }
@@ -51,6 +51,14 @@
               "target": "Package",
               "version": "[13.1.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -68,6 +76,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
             }
           },
           "imports": [
@@ -93,14 +105,14 @@
         }
       }
     },
-    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj": {
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj",
+        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj",
         "projectName": "Cars.Application",
-        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj",
+        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Application\\Cars.Application.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Application\\obj\\",
+        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,11 +129,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj": {
-                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj"
+              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj": {
+                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj"
               },
-              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj": {
-                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj"
+              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj": {
+                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj"
               }
             }
           }
@@ -165,14 +177,14 @@
         }
       }
     },
-    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj": {
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj",
+        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj",
         "projectName": "Cars.Domain",
-        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj",
+        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Domain\\obj\\",
+        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -200,6 +212,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -220,14 +238,14 @@
         }
       }
     },
-    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj": {
+    "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj",
+        "projectUniqueName": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj",
         "projectName": "Cars.Infrastructure",
-        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj",
+        "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Infrastructure\\Cars.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Infrastructure\\obj\\",
+        "outputPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,8 +262,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj": {
-                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab3-dodanieReact\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj"
+              "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj": {
+                "projectPath": "D:\\JoszkoStudia\\5sem\\Aplikacje_sieciowe_i_webowe\\lab4-panelLogowania\\CarsWebApplication\\Cars.Domain\\Cars.Domain.csproj"
               }
             }
           }

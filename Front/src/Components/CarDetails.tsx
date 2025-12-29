@@ -7,7 +7,6 @@ import { Button } from 'semantic-ui-react';
 import '../Styles/CarDetails.css'
 
 export default function CarDetails(){
-    // Pobranie id z parametrów URL
     const { id } = useParams<{ id: string }>();
     const [car, setCar] = useState<Car | null>(null);
     const [error, setError] = useState<string | null>(null);
@@ -36,7 +35,6 @@ export default function CarDetails(){
     return <div>Error: {error}</div>;
   }
 
-  // Wyświetlenie danych samochodu, jeśli są dostępne
   return (
     <div className="container">
       <h1>Szczegóły auta</h1>

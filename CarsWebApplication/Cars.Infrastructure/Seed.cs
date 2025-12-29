@@ -1,4 +1,5 @@
 ﻿using Cars.Domain;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,27 @@ namespace Cars.Infrastructure
 {
     public static class Seed
     {
-        public static async Task SeedData(DataContext context)
+        public static async Task SeedData(DataContext context, UserManager<AppUser> userManager)
         {
+
+
+            if(!userManager.Users.Any())
+            {
+                Console.WriteLine("dodawanie uzytkownikow");
+                var users = new List<AppUser>
+                {
+                    new AppUser{DisplayName = "franek", Bio = "", UserName = "Franco123", Email = "franek@test.com"},
+                    new AppUser{DisplayName = "asia", Bio = "", UserName = "Asiula123", Email = "asia@test.com"},
+                    new AppUser{DisplayName = "darek", Bio = "", UserName = "Dario123", Email = "darek@test.com"},
+                    new AppUser{DisplayName = "michal", Bio = "", UserName = "Szef123", Email = "michal@test.com"}
+                };
+
+                foreach (var user in users)
+                {
+                    await userManager.CreateAsync(user, "Hase!l0123");
+                }
+            }
+
             if (await context.Cars.AnyAsync())
                 return;
 
@@ -40,7 +60,7 @@ namespace Cars.Infrastructure
                     FuelType = FuelType.Petrol,
                     ProductionDate = DateTime.UtcNow.AddYears(-18),
                     CarFuelConsumption = 7.2,
-                    BodyType = BodyType.Hatchback 
+                    BodyType = BodyType.Hatchback
                 },
                  new Car
                 {

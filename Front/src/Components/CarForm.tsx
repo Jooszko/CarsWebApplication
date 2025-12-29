@@ -129,7 +129,7 @@ export default function CarForm(){
           <input
             type="date"
             name="productionDate"
-            value={car.productionDate.slice(0, 10)} // Skracamy ISO string do formatu yyyy-MM-dd
+            value={car.productionDate.slice(0, 10)}
             onChange={handleChange}
           />
         </div>

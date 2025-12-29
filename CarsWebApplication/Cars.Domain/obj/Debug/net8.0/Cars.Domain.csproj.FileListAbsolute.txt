@@ -42,3 +42,15 @@ D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplic
 D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\refint\Cars.Domain.dll
 D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.pdb
 D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab3-dodanieReact\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\ref\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfoInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.AssemblyInfo.cs
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.csproj.CoreCompileInputs.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\refint\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.pdb
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.deps.json
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.dll
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\bin\Debug\net8.0\Cars.Domain.pdb
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\Cars.Domain.csproj.AssemblyReference.cache
+D:\JoszkoStudia\5sem\Aplikacje_sieciowe_i_webowe\lab4-panelLogowania\CarsWebApplication\Cars.Domain\obj\Debug\net8.0\ref\Cars.Domain.dll
